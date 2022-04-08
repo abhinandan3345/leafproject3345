@@ -2,8 +2,8 @@ import streamlit as st
 import PIL
 from PIL import Image
 # import tensorflow 
-tf.keras.utils.load_img
-tf.keras.utils.img_to_array
+# tf.keras.utils.load_img
+# tf.keras.utils.img_to_array
 import numpy as np
 from keras.models import load_model
 import requests
