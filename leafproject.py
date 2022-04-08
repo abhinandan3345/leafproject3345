@@ -3,9 +3,9 @@ import PIL
 from PIL import Image
 # import tensorflow 
 from tensorflow.keras.utils.load_img
-tf.keras.utils.img_to_array
+from tensorflow.keras.utils.img_to_array
 import numpy as np
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 import requests
 from bs4 import BeautifulSoup
 model = load_model('leaf_model4.h5')
