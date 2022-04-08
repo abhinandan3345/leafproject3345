@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-import tensorflow as tf
+import tensorflow.compat.v2 as tf
 tf.keras.utils.load_img
 tf.keras.utils.img_to_array
 import numpy as np
