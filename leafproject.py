@@ -1,4 +1,5 @@
 import streamlit as st
+import PIL
 from PIL import Image
 import tensorflow as tf
 tf.keras.utils.load_img
