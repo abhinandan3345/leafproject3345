@@ -17,7 +17,6 @@ local_css("style.css")
 # ---- HEADER SECTION ----
 with st.container():
     st.subheader("HELLO, WELCOME TO OUR SITE :wave:")
-    st.title("A BIG DATA TEAM FROM C-DAC, Bengaluru")
     st.write(
         """We are passionate about finding ways to use Python and BIG DATA .  
            We are aslo provide solutions for Big Data/ML.
