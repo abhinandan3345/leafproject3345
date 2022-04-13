@@ -15,16 +15,6 @@ def local_css(file_name):
 local_css("style.css")
 
 # ---- HEADER SECTION ----
-with st.container():
-    st.subheader("HELLO, WELCOME TO OUR SITE :wave:")
-    st.write(
-        """We are passionate about finding ways to use Python and BIG DATA .  
-           We are aslo provide solutions for Big Data/ML.
-          
-            
-        """
-    )
-    st.write('------')
 
 model = load_model('leaf_model.h5')
 labels = {0: 'Aam', 1: 'Amrud', 2: 'Annar', 3: 'Arhul', 4:'Chandan', 5: 'Chandni', 6: 'Curry', 7: 'Drumstick', 8: 'Ghrit Kumari', 9: 'Giloy', 10: 'Harive-Dantu', 11: 'Jackfruit', 12:'Jamaica Cherry' , 13:'Jamun' , 14: 'Karanda', 15:'Karanja' , 16:'Malabar spinach' , 17:'Mithi', 18:'Mogra', 19:'Neem',20:'Nimbu', 21:'Oleander', 22:'Paan' , 23:'Parijata', 24: 'Peepal', 25: 'Phagoora', 26: 'Pudina', 27: 'Rasna', 28: 'Rose Apple', 29: 'Sarso', 30: 'Tindora',31: 'Tulsi'}  
