@@ -49,5 +49,4 @@ User Interface
 used streamlit for user Interface \#\# How To Run Run it on command line
 prompt, and use command. -- streamlit run your\_py\_file \#\# Project
 URL
-https://share.streamlit.io/abhisheksolanke/automatic-identification-of-ayurvedic-leaves-using-deep-learning/main/automaticleafprediction.py
 https://share.streamlit.io/abhinandan3345/leafproject3345/main/app.py
