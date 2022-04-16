@@ -87,7 +87,7 @@ def fetch_name(prediction):
 
 def run():
     st.title("Automatic Identification Of Ayurvedic Leaves Using Deep Learning")
-    st.header("Please Check The Sample Of Leafs In Saved Images ")
+    st.header("Please Check The Sample Of Leaves In Saved Images Folder")
     img_file = st.file_uploader("Choose an Image", type=["jpg", "png"])
     if img_file is not None:
         img = Image.open(img_file).resize((250,250))
